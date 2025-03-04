@@ -1,0 +1,2725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1js/bootstrap-dropdownhover.min.js"></script>
+    <link rel="icon" href="favicon.ico">
+    <title>CSCE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Gen 8 Styles -->
+    <link rel="stylesheet" href="css/event.css">
+    <!-- FontAwesome -->
+    <script src="../use.fontawesome.com/4c52c47479.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112677843-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112677843-1');
+    </script>
+    <style>
+        .dropbtn {
+            background-color: #181d33;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown:hover .dropbtn {
+            background-color: #181d33;
+        }
+        
+        .dropbtn2 {
+            background-color: #181d33;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+        }
+        
+        .dropdown2 {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content2 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 260px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content2 a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content2 a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown2:hover .dropdown-content2 {
+            display: block;
+        }
+        
+        .dropdown2:hover .dropbtn2 {
+            background-color: #181d33;
+        }
+        
+        .dropbtn1 {
+            background-color: #181d33;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+        }
+        
+        .dropdown1 {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content1 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 260px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content1 a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content1 a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown1:hover .dropdown-content1 {
+            display: block;
+        }
+        
+        .dropdown1:hover .dropbtn1 {
+            background-color: #181d33;
+        }
+        
+        .dropbtn3 {
+            background-color: #181d33;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+        }
+        
+        .dropdown3 {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content3 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content3 a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content3 a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown3:hover .dropdown-content3 {
+            display: block;
+        }
+        
+        .dropdown3:hover .dropbtn3 {
+            background-color: #181d33;
+        }
+        
+        .dropbtn4 {
+            background-color: #181d33;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+        }
+        
+        .dropdown4 {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content4 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content4 a {
+            color: black;
+            padding: 12px 10px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content4 a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown4:hover .dropdown-content4 {
+            display: block;
+        }
+        
+        .dropdown4:hover .dropbtn4 {
+            background-color: #181d33;
+        }
+        
+        .img {
+            border-radius: 50%;
+        }
+        
+        .new-badge {
+            display: inline-block;
+            background-color: #FF0000;
+            /* Red background for the badge */
+            color: #FFFFFF;
+            /* White text color */
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-left: 10px;
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        .main-heading-link:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav id="main_nav" class="navbar navbar-light fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <img src="images/CUSTlogo.png" alt="Logo"></a>
+            <div class="dropdown">
+                <button class="dropbtn">Home</button>
+                <div class="dropdown-content">
+                    <a href="#about">Overview</a>
+                    <a href="#about">About CUST</a>
+                </div>
+            </div>
+            <div class="dropdown1">
+                <button class="dropbtn1">About CSCE</button>
+                <div class="dropdown-content1">
+                    <a href="#keynote">Keynote Speakers</a>
+                    <a href="#techcommt">Technical Committee/Reviewers</a>
+
+                    <a href="#confadv">Conference Advisory Committee</a>
+                    <a href="#orgcmt">Organizing Committee</a>
+                    <!-- <a href="#contus">Contact Us</a> -->
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropbtn2">Call for Papers</button>
+                <div class="dropdown-content2">
+                    <a href="#sguides">Submission Guideline</a>
+                    <!-- <a href="#rguides">Registration Details</a> -->
+
+                </div>
+            </div>
+            <div class="dropdown3">
+                <button class="dropbtn3">Registration Guidelines</button>
+                <div class="dropdown-content3">
+                    <a href="#rguides">Registration Guidelines</a>
+
+                </div>
+            </div>
+            <div class="dropdown4">
+                <button class="dropbtn4">Previous CSCE</button>
+                <div class="dropdown-content4">
+                    <a href="/archive/CSCE_24_conference_proceedings/index.html">CSCE'24</a>
+                    <a href="/archive/CSCE_23_conference_proceedings/index.html">CSCE'23</a>
+                    <a href="/archive/CSCE_22_conference_proceedings/index.html">CSCE'22</a>
+                    <a href="/archive/CSCE_Proceedings_2021/csce_proceedings_2021.html">CSCE'21</a>
+                    <a href="/archive/proceedings20.html">CSCE'20</a>
+                    <a href="/archive/proceedings.php">CSCE'19</a>
+
+                </div>
+            </div>
+            <div class="dropdown4">
+                <button class="dropbtn4">Contact Us</button>
+                <div class="dropdown-content4">
+                    <a href="#contus">Contact</a>
+
+                </div>
+            </div>
+
+            <!--	  <a class="navbar-brand" href="#"> <img  src="images/logo.png" alt="Logo"></a> -->
+        </div>
+    </nav>
+    <!-- /.Navigation -->
+
+    <!-- Event Header -->
+    <header id="event01" style="background-image: url('images/IMG_3983.JPG')" ;>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Header Content -->
+                    <div class="header_wrapper">
+                        <img width="130px" height="130px" src="images/CELOGO-9.png" alt="Logo">
+                        <div class="header_text">
+
+                            <h1>7th Conference on Sustainability in Civil Engineering (CSCE’25 An International Conference)</h1>
+
+                            <!--    <p class="cta_line"><a href="#" class="btn btn-lg btn-primary-cta">About</a></p> -->
+
+                        </div>
+                    </div>
+                    <!-- /.Header Content -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 offset-lg-0 col-md-12 offset-md-1">
+                    <div class="about_intro_content">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <!-- <h2 style="color:#3955E8;text-align: center;">
+                                    <a href="/CSCE'24 Program - S. Final-3.pdf" class="main-heading-link">For Conference Program click Here</a> <span class="new-badge">New</span></h2> -->
+                                <h3 style="color:#3955E8">Conference Overview</h3>
+
+                                <p text-align="justify">Welcome to the Conference on Sustainability
+                                    in Civil Engineering (CSCE), organized by the
+                                    Department of Civil Engineering at Capital
+                                    University of Science and Technology,
+                                    Islamabad, Pakistan. The conference focuses
+                                    on highlighting sustainability in the field of
+                                    civil engineering. It aims to provide a platform
+                                    for civil engineers from academia and industry
+                                    to share practical experiences and research
+                                    findings in their respective specializations. We
+                                    hope all participants find this an excellent
+                                    opportunity for academic and industrial
+                                    communities to address emerging challenges,
+                                    exchange solutions, and discuss future
+                                    research directions. The conference features
+                                    multiple parallel sessions covering various
+                                    specialties, fostering interaction among
+                                    researchers and engineers to enhance their
+                                    understanding of sustainability in civil
+                                    engineering.</p>
+
+                                <h4 style="color:#3955E8">Conference Brochure</h4>
+                                <p><a href="7th-csce.pdf">Click here </a>to download</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- About Intro Content -->
+                    <div class="about_intro_content">
+                        <div class="row">
+                            <div class="col-lg-12">
+
+                                <h3 style="color:#3955E8">Conference Venue</h3>
+                                <p align="justify">Capital University of Science & Technology (CUST) Islamabad Pakistan was established in 1998 as Islamabad Campus of Mohammad Ali Jinnah University (MAJU) Karachi and achieved its recognition in the country and abroad by
+                                    maintaining excellent academic standards. CUST is a comprehensive Institution which have faculties including Engineering, Medicines, Natural Sciences, Management, Computing, Humanities and Arts. Faculty of Engineering
+                                    has three Departments: Electrical Engineering; Mechanical Engineering and Civil Engineering. The Department of Civil Engineering is dedicated to produce quality professional engineers with abilities to design, manage
+                                    and operate Civil Engineering based fields. It is due to quality education that Capital University of Science and Technology has achieved the honour for being among top few Pakistani universities and the first among
+                                    private institutions whose BS Civil Engineering Program is accredited on Outcome Based Assessment (OBA) by Pakistan Engineering Council. The department is also offering graduate programs in four specialization areas.</p>
+                            </div>
+
+
+                            <!-- About Main Content -->
+                            <div class="about_main_content">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <!-- About Card -->
+                                        <div class="about_card">
+                                            <div class="inner_content">
+                                                <img src="images/icns/location_pin.svg" width="100" height="100" alt="location" />
+                                                <h3>Location</h3>
+                                                <p class="details">Capital University of Science & Technology, .
+                                                    <br/> Islamabad Expressway, Kahuta Road, Zone-V Islamabad
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- /.About Card -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <!-- About Card -->
+                                        <div class="about_card">
+                                            <div class="inner_content">
+                                                <img src="images/icns/calendar.svg" width="100" height="100" alt="location" />
+
+                                                <h3>Dates</h3>
+                                                <p class="details">Conference - August 7, 2025</p>
+                                                <!-- <p class="details"><font color="red">The conference will be held online this year.</font></p> -->
+                                            </div>
+                                        </div>
+                                        <!-- /.About Card -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!--<div class="about_intro_content">
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h3 style="color:#3955E8" >Downloads</h3>
+                                    <a href="/">Conference Schedule</a><br>
+                                    <a href="/downloads/A4 Flyer.pdf">Conference Poster</a><br>
+                                    <a href="/downloads/Brochure CBRC.pdf">Conference Flyer</a><br>
+                                    <a href="/downloads/CBRC Poster.pdf">Conference Brochure</a><br></div>
+                            </div>
+                        </div> -->
+                            <!-- /.About Intro Content -->
+
+
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <section id="idates">
+        <div class="container">
+            <!-- Schedule Section Title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color:#3955E8">Important Dates</h3>
+
+                </div>
+            </div>
+            <!-- /.Schedule Section Title -->
+
+            <!-- Schedule Content -->
+            <div class="schedule_content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Schedule Card -->
+                        <div class="schedule_card">
+                            <!-- Schedule Inner Content -->
+                            <div class="schedule_inner">
+                                <!-- Schedule Days - Tabs navigation -->
+
+                                <!-- /.Schedule Days - Tabs navigation -->
+
+                                <!-- Schedule Days - Tabs content -->
+                                <div class="tab-content" id="pills-tabContent">
+                                    <!-- Tab 01 -->
+                                    <div class="tab-pane fade show active" id="pills-dayone" role="tabpanel" aria-labelledby="pills-dayone-tab">
+                                        <!-- Schedule Days - Table -->
+                                        <div class="table">
+                                            <!-- Table Header -->
+                                            <!--   <div class="row header">
+                                               <div class="cell">
+                                                   Sr. No.
+                                               </div>
+                                               <div class="cell">
+                                                   Area
+                                               </div>
+
+                                           </div> -->
+                                            <!-- /.Table Header -->
+                                            <!-- Table Row -->
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Full Length Paper Submission
+                                                </div>
+
+                                                <!-- <div class="cell" >
+
+                                                <p><strike>May 11, 2023</strike> </p>
+                                            </div> -->
+                                                <div class="cell">
+                                                    <p>April 17, 2025</p>
+                                                </div>
+
+
+
+
+                                            </div>
+                                            <!-- /.Table Row -->
+                                            <!-- Table Row -->
+
+                                            <!-- /.Table Row -->
+                                            <!-- Table Row -->
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Camera Ready Submission
+                                                </div>
+
+                                                <!-- <div class="cell" >
+                                                <p><strike>June 01, 2023</strike></p>
+                                            </div> -->
+                                                <div class="cell">
+                                                    <p>June 12, 2025</p>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Acceptance Notification
+                                                </div>
+
+                                                <!-- <div class="cell">
+
+                                                <p><strike>June 08, 2023</strike></p>
+                                            </div> -->
+                                                <div class="cell">
+                                                    <p>June 26, 2025</p>
+                                                </div>
+
+                                            </div>
+
+                                            <!-- /.Table Row -->
+                                            <!-- Table Row -->
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Registration Deadline
+                                                </div>
+
+                                                <!-- <div class="cell" >
+
+                                                <p><strike>June 22, 2023</strike></p>
+                                            </div> -->
+                                                <div class="cell">
+                                                    <p>July 10, 2025</p>
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                        <!-- /.Schedule Days - Table -->
+                                    </div>
+
+
+                                </div>
+                                <!-- /.Schedule Days - Tabs content -->
+                            </div>
+                            <!-- Schedule Inner Content -->
+                        </div>
+                        <!-- /.Schedule Card -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.Schedule Content -->
+        </div>
+    </section>
+    <!--- Conference Tracks -->
+
+    <section id="conftrack">
+        <div class="container">
+            <!-- Schedule Section Title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color:#3955E8">Conference Tracks</h3>
+
+                </div>
+            </div>
+
+            <div class="og_content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Schedule Card -->
+                        <div class="og_card">
+                            <!-- Schedule Inner Content -->
+                            <div class="og_inner">
+                                <!-- Schedule Days - Tabs navigation -->
+
+                                <!-- /.Schedule Days - Tabs navigation -->
+
+                                <!-- Schedule Days - Tabs content -->
+                                <div class="tab-content" id="pills-tabContent">
+                                    <!-- Tab 01 -->
+                                    <div class="tab-pane fade show active" id="pills-dayone" role="tabpanel" aria-labelledby="pills-dayone-tab">
+                                        <!-- Schedule Days - Table -->
+                                        <div class="table">
+
+
+
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    <p><b>Track - 01: Green Construction Materials and Structures </b> </p>
+
+                                                </div>
+                                                <div class="cell">
+
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    Construction Materials
+                                                </div>
+                                                <div class="cell">
+                                                    Composite Materials
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    Modern Materials
+                                                </div>
+                                                <div class="cell">
+                                                    Structural Material Behavior
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    Structural Analysis
+                                                </div>
+                                                <div class="cell">
+                                                    Structural Design
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    Earthquake Engineering
+                                                </div>
+                                                <div class="cell">
+                                                    Engineering Dynamics
+                                                </div>
+
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    <b>Track - 02: Construction and Project Management for Sustainable Developments  </b>
+
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Artificial Intelligence in Civil Engineering
+                                                </div>
+                                                <div class="cell">
+                                                    Building Information Modelling (BIM)
+                                                </div>
+                                                <div class="cell">
+                                                    Project Management for Sustainable Development
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    Sustainability in Construction Projects
+                                                </div>
+                                                <div class="cell">
+                                                    Construction Safety
+                                                </div>
+                                                <div class="cell">
+                                                    Smart and Sustainable Construction
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Construction Waste Management
+                                                </div>
+                                                <div class="cell">
+                                                    IT applications in Construction
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>Track - 03: Resilient Infrastructure and Environment  </b> </p>
+
+                                                </div>
+
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    Environmental Engineering
+                                                </div>
+                                                <div class="cell">
+                                                    Environmental Sciences
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    Irrigation Engineering
+                                                </div>
+                                                <div class="cell">
+                                                    Water Resource Engineering & Management
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    Highway &amp; Traffic Engineering
+                                                </div>
+                                                <div class="cell">
+                                                    Urban &amp; Transportation Planning
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    Geotechnical Engineering
+                                                </div>
+                                                <div class="cell">
+                                                    Geological Engineering
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <!-- /.Schedule Days - Table -->
+                                    </div>
+
+
+                                </div>
+                                <!-- /.Schedule Days - Tabs content -->
+                            </div>
+                            <!-- Schedule Inner Content -->
+                        </div>
+                        <!-- /.Schedule Card -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.Schedule Content -->
+        </div>
+    </section>
+
+
+    <section id="confadv">
+        <div class="container">
+            <!-- Schedule Section Title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color:#3955E8">Conference Advisory Committee</h3>
+
+                </div>
+            </div>
+
+            <div class="og_content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Schedule Card -->
+                        <div class="og_card">
+                            <!-- Schedule Inner Content -->
+                            <div class="og_inner">
+                                <!-- Schedule Days - Tabs navigation -->
+
+                                <!-- /.Schedule Days - Tabs navigation -->
+
+                                <!-- Schedule Days - Tabs content -->
+                                <div class="tab-content" id="pills-tabContent">
+                                    <!-- Tab 01 -->
+                                    <div class="tab-pane fade show active" id="pills-dayone" role="tabpanel" aria-labelledby="pills-dayone-tab">
+                                        <!-- Schedule Days - Table -->
+                                        <div class="table">
+
+
+
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    <p><b>Dr. Muhammad Mansoor Ahmed</b> </p>
+                                                    Vice-Chancellor, CUST Islamabad
+                                                </div>
+
+                                                <div class="cell">
+                                                    <p><b>Patron</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p>&nbsp </p>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    <p><b>Dr. Imtiaz Ahmed Taj  </b> </p>
+                                                    Dean Faculty of Engineering, CUST Islamabad
+                                                </div>
+
+                                                <div class="cell">
+                                                    <p><b>General Advisor</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p>&nbsp </p>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    <p><b>Dr. Ishtiaq Hassan</b> </p>
+                                                    Director, Departmental Research and Commercialization
+                                                </div>
+
+                                                <div class="cell">
+                                                    <p><b>Principle Advisor</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p>&nbsp </p>
+
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+                                        <!-- /.Schedule Days - Table -->
+                                    </div>
+
+
+                                </div>
+                                <!-- /.Schedule Days - Tabs content -->
+                            </div>
+                            <!-- Schedule Inner Content -->
+                        </div>
+                        <!-- /.Schedule Card -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.Schedule Content -->
+        </div>
+    </section>
+
+
+    <section id="techcommt">
+        <div class="container">
+            <!-- Schedule Section Title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color:#3955E8">Technical Committee/Reviewers</h3>
+                    <!-- <h2 style="color:#000">Coming Soon</h2> -->
+
+                </div>
+            </div>
+
+            <div class="og_content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="og_card">
+                            <div class="og_inner">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-dayone" role="tabpanel" aria-labelledby="pills-dayone-tab">
+                                        <h1 style="font-size: 20px;">Coming soon</h1>
+                                        <!-- <div class="table">
+                                            <div class="row">
+                                                <div class="cell" style="font-weight: bold;">
+                                                    <p><b>Sr. No.</b> </p>
+                                                </div>
+                                                <div class="cell" style="font-weight: bold;">
+                                                    <p><b>Name</b> </p>
+                                                </div>
+                                                <div class="cell" style="font-weight: bold;">
+                                                    <p>Organization</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>1</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Shunde  Qin</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Jacobs Sutton Coldfield, UK</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>2</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Furqan Qamar</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>WSP, UK</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>3</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Naveed Ahmad</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Moffatt & Nichol, CA, USA</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>4</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Mohsin Shehzad</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>WSP, New Zealand</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>5</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Inam Khan</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>BCRC, Australia</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>6</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Munir Ahmed</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>DAR, KSA</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>7</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Robert Evans</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Nottingham Trent University, UK</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>8</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Salman Azhar</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Auburn University, USA</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>9</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Sajjad Ahmad</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>University of Nevada, Las Vegas, USA</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>10</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Afaq Ahmad</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>University of Memphis, USA</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>11</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Wajiha Shahzad</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Massey University, New Zealand </b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>12</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Mizan Ahmed</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Curtin University, Australia</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>13</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Piotr Smarzewski</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Military University of Technology, Poland</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>14</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Ghazanfar Ali Anwar</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>The Hong Kong Polytechnic University, Honk Kong</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>15</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Anas Bin Ibrahim</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>MARA University of Technology, Malaysia</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>16</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Nasir Shafiq</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Universiti Teknologi PETRONAS, Malaysia</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>17</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Khairunisa Binti Muthusamy</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Universiti Malaysia Pahang, Malaysia</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>18</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Naveed Anwar</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Asian Institute of Technology, Thailand</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>19</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Li Li</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Northwest A&F University, China</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>20</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Cao Mingli</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Dalian University of Technology, China</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>21</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Hammad Salahuddin</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Shenzhen University, China</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>22</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Mohsin Usman Qureshi</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Sohar University, Oman</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>23</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Umar Farooq</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Islamic University of Madinah, KSA</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>24</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Uneb Gazder</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>University of Bahrain, Bahrain</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b></b>25</p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Waris Ali Khan</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>The British University in Dubai, Dubai</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>26</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Ahsen Maqsoom</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Mohammed VI Polytechnic University, Morocco</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>27</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Irfan Yousuf</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>World Bank Group, Islamabad, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>28</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Hassan Nasir</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>WSSP, Peshawar, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>29</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Rao Arsalan Khushnood</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Tunnelling Institute of Pakistan, Islamabad, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>30</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Hamza Farooq Gabriel</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>NUST, Islamabad, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>31</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Imran Hashmi</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>NUST, Islamabad, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>32</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Khurram Iqbal Ahmad Khan</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>NUST, Islamabad, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>33</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>M. Rizwan</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>NUST, Risalpur, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>34</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Nasir Khan</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>NUST, Risalpur, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>35</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Habib Ur Rehman</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Lahore, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>36</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Ammad Hassan</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Lahore, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>37</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Khurram Rashid</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Lahore, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>38</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Izza Anwer</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Lahore, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>39</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Amjad Naseer</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Peshawar, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>40</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Ayub Elahi</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>41</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Faisal Shabbir</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>42</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Naveed Ahmad</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>43</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Naveed Ahmad</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>44</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Usman Ali Naeem</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>45</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Jawad Hussain</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>46</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Faheem Butt</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>47</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Irshad Qureshi</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>48</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Muhammad Usman Arshid</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>49</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Naeem Ijaz</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>50</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Sadia Nasreen</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>UET, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>51</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Farrukh Arif</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b></b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>52</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Muhammad Faisal Javed</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>GIKI, Swabi, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>53</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Shiraz Ahmad</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>GIKI, Swabi, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>54</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Adnan Nawaz</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>COMSATS, Wah, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>55</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Zeeshan Alam</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>IIU, Islamabad, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>56</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>M. Shoaib</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>BZU, Multan, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>57</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Mudasser Muneer Khan</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>BZU, Multan, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>58</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Anwar Khitab</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>MUST, AJK, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>59</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Salman Ali Suhail</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>University of Lahore, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>60</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Shaukat Ali Khan</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Muslim Youth, University</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>61</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Sabahat Hassan</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>HITEC University, Taxila, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>62</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Asim Farooq</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>PAF IAST, Haripur, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>63</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Tariq Ali</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Swedish College of Engineering and Technology, Wah, Pakistan</b></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <p><b>64</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Khursheed Ahmed</b></p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>KIU, Gilgit, Pakistan</b></p>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section id="keynote">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color:#3955E8">Keynote Speakers</h3>
+                </div>
+            </div>
+            <h1 style="font-size: 20px;">Coming soon</h1>
+            <!-- <div class="row">
+                <div class="col-md-4">
+                    <h2><b>Hammad Anis Khan</b> </h2>
+                    <p><b>University of Sydney, Australia</b> </p>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <p style="text-align: justify;"><b>Dr. Hammad Anis Khan has expertise on concrete materials. He is currently associated with University of Sydney, Australia. His research interests include RCCP, self-healing concrete, fine recycled concrete aggregate, and cement chemistry. He did his Ph.D. from University of New South Wales, Australia.</b>                            </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cell"><img src="/images/speakers-2024/hammad.jpg"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2><b>Mehran Khan</b> </h2>
+                    <p><b>University College Dublin, Ireland</b> </p>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <p style="text-align: justify;"><b>Dr. Mehran Khan is a materials expert and is currently associated with the school of civil engineering, University College Dublin, Ireland. His research interest include low carbon 3D printed concrete, HPC, fire resistant composites, and ACMs. He did his PhD from Dalian University of Technology, China.</b>                            </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cell"><img src="/images/speakers-2024/mehran.jpg"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2><b>Jin Cheng Liu</b> </h2>
+                    <p><b>Aurecon, Hong Kong</b> </p>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <p style="text-align: justify;"><b>Dr. Jin Cheng Liu has expertise on both concrete materials and structures. He is currently associated with Aurecon, Hong Kong. His research interests include ECC, UHPC, fire-induced explosive spalling of concrete, green concrete, and AI for civil engineering. He did his Ph.D. from Nanyang Technological University, Singapore.</b>                            </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cell"><img src="/images/speakers-2024/jin.png"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2><b>Muhammad Shakeel</b> </h2>
+                    <p><b>AECOM, Hong Kong</b> </p>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <p style="text-align: justify;"><b>Dr. Muhammad Shakeel is a geotechnical expert and is currently associated with AECOM, Hong Kong. His research interests include centrifuge modelling, static liquefaction, slope stability, and numerical modelling. He did his PhD from The Hong Kong University of Science and Technology, Hong Kong.</b>                            </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cell"><img src="/images/speakers-2024/shakeel.jpg"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2><b>Noor Aina</b> </h2>
+                    <p><b>Universiti Pertahanan Nasional, Malaysia</b> </p>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <p style="text-align: justify;"><b>Dr. Noor Aina is a construction materials specialist and is currently associated with the department of civil engineering, Universiti Pertahanan Nasional, Malaysia. Her research interests include green steel, green technology, unreinforced masonry building, and building retrofitting. She did her PhD from University of Auckland, New Zealand.</b>                            </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cell"><img src="/images/speakers-2024/noor.jpg"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2><b>Khan Shahzada</b> </h2>
+                    <p><b>UET Peshawar, Pakistan</b> </p>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <p style="text-align: justify;"><b>Dr. Khan Shahzada is a materials expert and is currently associated with the department of civil engineering, University of Engineering and Technology, Peshawar, Pakistan. His research interests include ECC, waste marble powder, fly ash, and SRA. He did his PhD from University of Engineering and Technology, Peshawar, Pakistan.</b>                            </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cell"><img src="/images/speakers-2024/khan.jpg"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2><b>Khan Zaib Jadoon</b> </h2>
+                    <p><b>International Islamic University, Islamabad, Pakistan</b> </p>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <p style="text-align: justify;"><b>Dr. Khan Zaib Jadoon is a water resource expert and is currently associated with the department of civil engineering, International Islamic University, Islamabad, Pakistan. His research interests include ground water recharge, dam seepage, spatiotemporal monitoring, and WT-ANN. He did his PhD from Universite Catholique de Louvain, Belgium.</b>                            </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cell"><img src="/images/speakers-2024/zaib.jpg"></div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="techcommt">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color:#3955E8">Industrial Partners CSCE’24</h3>
+                </div>
+            </div>
+            <h1 style="font-size: 20px;">Coming soon</h1>
+            <!-- <div class="row">
+                <div class="col-md-6">
+                    <h2><b>City Engineering Consultants</b> </h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell-img"><img src="/images/speakers-2024/city.png" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><b>Design and Consultancy Services</b> </h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell-img"><img src="/images/speakers-2024/dcs.png" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><b>JS Architectural & Engineering Consultants</b> </h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell-img"><img src="/images/speakers-2024/ae.png" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><b>Engineering & Design Consultants</b> </h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell-img"><img src="/images/speakers-2024/eng.jpg" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><b>MARKAS</b> </h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell-img"><img src="/images/speakers-2024/marks.png" style="width: 100%;"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><b>ZAC Engineers</b> </h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell-img"><img src="/images/speakers-2024/zac.jpg" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><b>MKAIC Climate Consulting</b> </h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="cell-img"><img src="/images/speakers-2024/consulting.jpg" style="width: 100%;"></div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- <section id="keynote">
+    <div class="container">
+       
+        <div class="row">
+            <div class="col-md-12">
+                <h3 style="color:#3955E8">Keynote Speakers</h3>
+                <h2 style="color:#000">Coming Soon</h2>
+            </div>
+        </div> -->
+
+
+    <!--Start of popup 1 -->
+    <!-- <div class="modal" id="mymodal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" style="color:#3955E8"><strong>Dr. Sajjala Sreedhar Reddy </strong></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="/images/dr_sajjala.png" alt="Avatar" style="width:200px"></center>
+                        <h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Sajjala Sreedhar Reddy is working in the field of Environmental Engineering and is currently affiliated with the University of Nizwa, Nizwa, Oman as a head of the Department of Civil and Environmental Engineering. His experience includes Advanced photo-chemical oxidation technologies and SODIS.</p>
+					</div>
+                </div>
+            </div>
+        </div> -->
+    <!--end of popup 1 -->
+
+    <!--Start of popup 2 -->
+    <!-- <div class="modal" id="mymodal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" style="color:#3955E8"><strong>Dr. Mizan Ahmed  </strong></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="/images/dr_mizan.png" alt="Avatar" style="width:200px"></center>
+                        <h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Mizan Ahmed is working in the field of Structural Engineering and is currently affiliated with Curtin University, Perth, Australia as a lecturer in the School of Civil and Mechanical Engineering, Faculty of Science and Engineering. His experience includes Steel-concrete composite structures, Steel structures, Concrete structures, Computational mechanics, and Machine learning. He did his Ph.D. in Civil Engineering with a specialization in Structural Engineering from Victoria University, Melbourne, Australia.</p>
+					</div>
+                </div>
+            </div>
+        </div> -->
+    <!--end of popup 2 -->
+
+    <!--Start of popup 3 -->
+    <!-- <div class="modal" id="mymodal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" style="color:#3955E8"><strong>Dr. Hossein Derakhshan </strong></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="/images/dr_hussain.png" alt="Avatar" style="width:200px"><center>
+                        <h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Hossein Derakhshan is working in the field of Structural Engineering and is currently affiliated with Queensland University of Technology (QUT), Brisbane, Australia as a senior lecturer in the School of Civil & Environmental Engineering, Faculty of Engineering. His experience includes Concrete and masonry materials and structures, Performance-based design, Fragility and risk evaluation of existing buildings, Earthquake engineering, Seismic retrofit, and computational mechanics. He did his Ph.D. in Civil Engineering with a specialization in Structural Engineering from the University of Auckland, Auckland, New Zealand.</p>
+					</div>
+                </div>
+            </div>
+        </div> -->
+    <!--end of popup 3 -->
+
+    <!--Start of popup 4 -->
+    <!-- <div class="modal" id="mymodal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" style="color:#3955E8"><strong>Dr. Wajiha Shahzad </strong></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="/images/dr_wajiha.png" alt="Avatar" style="width:200px"></center>
+                        <h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Wajiha Shahzad is working in the field of Construction Management and is currently affiliated with the Massey University of New Zealand in the School of Built Environment, College of Sciences. Her experience includes Prefabrication, Design for Manufacturing and Assembly (DfMA), Construction Planning & Management, Innovation in Construction, and Productivity. She did her Ph.D. in Civil Engineering with a specialization in Construction Management from the University of Massey, Palmerston North, New Zealand.</p>
+					</div>
+                </div>
+            </div>
+        </div> -->
+    <!--end of popup 4 -->
+    <!-- Start Dr Afaq Ahmad -->
+    <!-- <div class="modal" id="mymodal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" style="color:#3955E8"><strong>Dr. Afaq Ahmad </strong></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="/images/dr_wajiha.png" alt="Avatar" style="width:200px"></center>
+                        <h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Afaq Ahmad is working in the field of Structural Engineering and is currently affiliated with University of Memphis, TN USA in the field of Structural Engineering.  His experience includes Structural Analysis, Finite Element Analysis, Earthquake Engineering, Construction Engineering, Concrete Technologies, Structural Health Monitoring, Nondestructive Testing, Discrete Element Modeling, Blast Modeling, Building Information Modelling, Smart Materials, Artificial Intelligence, Reinforced Concrete. He did his Ph.D. in Civil Engineering National Institute of Applied Sciences of Toulouse (Institut National des Sciences Appliquées de Toulouse), France.</p>
+					</div>
+                </div>
+            </div>
+        </div> -->
+    <!-- End Dr Afaq Ahmad -->
+
+
+
+
+    <!-- <div class="og_content">
+            <div class="row">
+                <div class="col-lg-12"> -->
+    <!-- Schedule Card -->
+    <!-- <div class="og_card"> -->
+    <!-- Schedule Inner Content -->
+    <!-- <div class="og_inner"> -->
+    <!-- Schedule Days - Tabs navigation -->
+
+    <!-- /.Schedule Days - Tabs navigation -->
+
+    <!-- Schedule Days - Tabs content -->
+    <!-- <div class="tab-content" id="pills-tabContent"> -->
+    <!-- Tab 01 -->
+    <!-- <div class="tab-pane fade show active" id="pills-dayone" role="tabpanel"
+                                     aria-labelledby="pills-dayone-tab"> -->
+    <!-- Schedule Days - Table -->
+    <!-- <div class="table"> -->
+
+
+    <!-- /.Table Row -->
+    <!-- Table Row -->
+    <!-- <div class="row header">
+
+
+
+                                        </div> -->
+
+    <!-- <div class="row">
+
+                                            <div class="cell">
+                                                <br><br><img src="/images/dr_wajiha.png" alt="Avatar" style="width:100px">
+                                                
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Dr. Wajiha Shahzad</br>	
+Massey University of New Zealand </b>  </p>
+<h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Wajiha Shahzad is working in the field of Construction Management and is currently affiliated with the Massey University of New Zealand as a senior lecturer in the School of Built Environment, College of Sciences. Her experience includes Prefabrication, Design for Manufacturing and Assembly (DfMA), Construction Planning & Management, Innovation in Construction, and Productivity. She did her Ph.D. in Civil Engineering with a specialization in Construction Management from the University of Massey, Palmerston North, New Zealand.</p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div> -->
+
+    <!-- Start of 3rd row -->
+    <!-- <div class="row">
+
+                                            <div class="cell">
+                                                <br><br><img src="/images/dr_hussain.png" alt="Avatar" style="width:100px">
+                                                
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Dr. Hossein Derakhshan</br>	
+Queensland University of Technology (QUT), Brisbane, Australia</b>  </p>
+<h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Hossein Derakhshan is working in the field of Structural Engineering and is currently affiliated with Queensland University of Technology (QUT), Brisbane, Australia in the School of Civil & Environmental Engineering, Faculty of Engineering. His experience includes Concrete and masonry materials and structures, Performance-based design, Fragility and risk evaluation of existing buildings, Earthquake engineering, Seismic retrofit, and computational mechanics. He did his Ph.D. in Civil Engineering with a specialization in Structural Engineering from the University of Auckland, Auckland, New Zealand.</p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div> -->
+    <!-- End of 3rd Row -->
+
+
+    <!-- Start of 2nd row -->
+    <!-- <div class="row">
+
+                                            <div class="cell">
+                                                <br><br><img src="/images/dr_robert.jpg" alt="Avatar" style="width:100px">
+                                                
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Dr. Robert Evans</br>	
+Nottingham Trent University of UK</b>  </p>
+<h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Robert Evans is working in the field of Geotechnical Engineering and is currently affiliated with the Nottingham Trent University of UK in the School of Architecture Design and the Built Environment. His experience includes Geotechnical engineering, Ground penetrating radar, Recycled materials and Assessing of road conditions.  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div> -->
+    <!-- End of 2nd Row -->
+
+
+
+
+
+    <!-- <div class="row">
+
+                                            <div class="cell">
+                                                <br><br><img src="/images/dr_imran.jpg" alt="Avatar" style="width:100px">
+                                                
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Dr. Imran Muhammad</br>	
+Massey University of New Zealand </b>  </p>
+<h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Imran Muhammad is working in the field of Transport and Urban Planning and is currently affiliated with the Massey University of New Zealand in the School of People, Environment & Planning. His experience includes urban transport planning. He has done his PhD from University of Melbourne.</p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div> -->
+
+
+    <!-- Start of 5th row -->
+    <!-- <div class="row">
+
+                                            <div class="cell">
+                                                <br><br><img src="/images/dr_sajjala.png" alt="Avatar" style="width:100px">
+                                                
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Dr. Sajjala Sreedhar Reddy</br>	
+University of Nizwa, Nizwa, Oman </b>  </p>
+<h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Sajjala Sreedhar Reddy is working in the field of Environmental Engineering and is currently affiliated with the University of Nizwa, Nizwa, Oman as a head of the Department of Civil and Environmental Engineering. His experience includes Advanced photo-chemical oxidation technologies and SODIS.</p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div> -->
+    <!-- End of 5th Row -->
+
+
+
+
+
+    <!-- Start of 4th row -->
+    <!-- <div class="row">
+
+                                            <div class="cell">
+                                                <br><br><img src="/images/dr_mizan.png" alt="Avatar" style="width:100px">
+                                                
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Dr. Mizan Ahmed</br>	
+Curtin University, Perth, Australia </b>  </p>
+<h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Mizan Ahmed is working in the field of Structural Engineering and is currently affiliated with Curtin University, Perth, Australia in the School of Civil and Mechanical Engineering, Faculty of Science and Engineering. His experience includes Steel-concrete composite structures, Steel structures, Concrete structures, Computational mechanics, and Machine learning. He did his Ph.D. in Civil Engineering with a specialization in Structural Engineering from Victoria University, Melbourne, Australia.</p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div> -->
+    <!-- End of 4th Row -->
+
+
+
+    <!-- <div class="row">
+
+                                            <div class="cell">
+                                                <br><br><img src="/images/dr_hamza.jpg" alt="Avatar" style="width:100px">
+                                                
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Dr. Hamza Farooq Gabriel</br>	
+National University of Science and Technology, Islamabad Pakistan </b>  </p>
+<h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Hamza Farooq Gabriel is working in the field of Water Resources Engineering & Management and is currently affiliated with the NUST Institute of Civil Engineering (NICE). He is the director of Regional Centre for Water Technologies & Trans-boundary Issues (RCWTTI). His experience includes water resources management, water resources engineering, engineering hydrology, and construction project management. He did his Ph.D. in Civil Engineering with specialization in Applied Hydrology from the Charles Sturt University (CSU), New South Wales, Australia. </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div> -->
+
+
+    <!-- <div class="row">
+
+                                            <div class="cell">
+                                                <br><br><img src="/images/dr_anwar.jpg" alt="Avatar" style="width:100px">
+                                                
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Dr. Anwar Khitab </br>	
+Mirpur University of Science and Technology Pakistan </b>  </p>
+<h5 style="background: #3A5197; color: white; padding: 5px;">Speaker's Profile</h5>
+                        <p align="justify">Dr. Anwar Khitab is working in the field of Structural Engineering and is currently affiliated with the Mirpur University of Science and Technology (MUST). He was ex-dean Faculty of Engineering at MUST. His experience includes Construction materials, Composites materials, Nanomaterials, Concrete structures, Structural analysis, Concrete durability, Earthquake engineering, Structural dynamics, Sustainable construction, Nondestructive testing. He did his Ph.D. in Civil Engineering National Institute of Applied Sciences of Toulouse (Institut National des Sciences Appliquées de Toulouse), France.</p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div> -->
+
+
+
+    <!-- End of 5th Row -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- </div> -->
+    <!-- /.Schedule Days - Table -->
+    <!-- </div> -->
+
+
+    <!-- </div> -->
+    <!-- /.Schedule Days - Tabs content -->
+    <!-- </div> -->
+    <!-- Schedule Inner Content -->
+    <!-- </div> -->
+    <!-- /.Schedule Card -->
+    <!-- </div>
+            </div>
+        </div> -->
+    <!-- /.Schedule Content -->
+    <!-- </div>
+</section> -->
+
+
+
+    <section id="orgcmt">
+        <div class="container">
+            <!-- Schedule Section Title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color:#3955E8">Organizing Committee</h3>
+
+                </div>
+            </div>
+
+            <div class="og_content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Schedule Card -->
+                        <div class="og_card">
+                            <!-- Schedule Inner Content -->
+                            <div class="og_inner">
+                                <!-- Schedule Days - Tabs navigation -->
+
+                                <!-- /.Schedule Days - Tabs navigation -->
+
+                                <!-- Schedule Days - Tabs content -->
+                                <div class="tab-content" id="pills-tabContent">
+                                    <!-- Tab 01 -->
+                                    <div class="tab-pane fade show active" id="pills-dayone" role="tabpanel" aria-labelledby="pills-dayone-tab">
+                                        <!-- Schedule Days - Table -->
+                                        <div class="table">
+
+
+                                            <!-- /.Table Row -->
+                                            <!-- Table Row -->
+                                            <div class="row header">
+
+
+
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    <p><b>Dr. Majid Ali</b> </p>
+
+                                                </div>
+
+                                                <div class="cell">
+                                                    <p><b>Conference Chair</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p>&nbsp </p>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    <p><b>Engr. Talha Bin Tahir</b> </p>
+
+                                                </div>
+
+                                                <div class="cell">
+                                                    <p><b>Conference Secretary - I</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p>&nbsp </p>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    <p><b>Engr. Muhammad Yahya</b> </p>
+
+                                                </div>
+
+                                                <div class="cell">
+                                                    <p><b>Conference Secretary - II</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p>&nbsp </p>
+
+                                                </div>
+
+                                            </div>
+
+                                            <!-- <div class="row">
+
+                                                <div class="cell">
+                                                    <p><b>Engr. M. Waqas Malik</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p><b>Member</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p>&nbsp </p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+
+                                                <div class="cell">
+                                                    <p><b>Engr. M. Minhas Shah</b> </p>
+
+                                                </div>
+
+                                                <div class="cell">
+                                                    <p><b>Secretary</b> </p>
+                                                </div>
+                                                <div class="cell">
+                                                    <p>&nbsp </p>
+
+                                                </div>
+
+                                            </div> -->
+
+
+
+
+
+
+
+                                        </div>
+                                        <!-- /.Schedule Days - Table -->
+                                    </div>
+
+
+                                </div>
+                                <!-- /.Schedule Days - Tabs content -->
+                            </div>
+                            <!-- Schedule Inner Content -->
+                        </div>
+                        <!-- /.Schedule Card -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.Schedule Content -->
+        </div>
+    </section>
+
+
+    <section id="contus">
+        <div class="container">
+            <!-- Schedule Section Title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color:#3955E8">Contact US</h3>
+                    <h4> For Further details please contact:</h4>
+                </div>
+            </div>
+
+            <div class="schedule_content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Schedule Card -->
+                        <div class="schedule_card">
+                            <!-- Schedule Inner Content -->
+                            <div class="schedule_inner">
+                                <!-- Schedule Days - Tabs navigation -->
+
+                                <!-- /.Schedule Days - Tabs navigation -->
+
+                                <!-- Schedule Days - Tabs content -->
+                                <div class="tab-content" id="pills-tabContent">
+                                    <!-- Tab 01 -->
+                                    <div class="tab-pane fade show active" id="pills-dayone" role="tabpanel" aria-labelledby="pills-dayone-tab">
+                                        <!-- Schedule Days - Table -->
+                                        <div class="table">
+                                            <!-- Table Header -->
+                                            <!--   <div class="row header">
+                                               <div class="cell">
+                                                   Sr. No.
+                                               </div>
+                                               <div class="cell">
+                                                   Area
+                                               </div>
+
+                                           </div> -->
+                                            <!-- /.Table Header -->
+                                            <!-- Table Row -->
+                                            <div class="row">
+                                                <div class="cell">
+                                                    <b>Engr. Talha Bin Tahir </b><br> Conference Secretary <br> Tel: +92-51-111-555-666 Ext – 422<br> Email: <a href="mailto:csce@cust.edu.pk">csce@cust.edu.pk</a><br>
+                                                </div>
+
+                                                <div class="cell">
+
+                                                </div>
+
+                                            </div>
+                                            <!-- <div class="row">
+                                                <div class="cell">
+                                                    <b>Mr. Irfan Akhtar </b><br> Academic Office, Civil Engineering Department <br> Tel: +92-51-111-555-666 Ext - 401<br>
+
+
+
+                                                </div>
+
+                                                <div class="cell">
+
+                                                </div>
+
+                                            </div> -->
+
+                                        </div>
+                                        <!-- /.Schedule Days - Table -->
+                                    </div>
+
+
+                                </div>
+                                <!-- /.Schedule Days - Tabs content -->
+                            </div>
+                            <!-- Schedule Inner Content -->
+                        </div>
+                        <!-- /.Schedule Card -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.Schedule Content -->
+        </div>
+    </section>
+
+
+    <section id="sguides">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 offset-lg-0 col-md-12 offset-md-1">
+                    <div class="about_intro_content">
+                        <div class="row">
+                            <div class="col-lg-12">
+
+                                <h3 style="color:#3955E8">Submission Guidelines</h3>
+
+                                <p text-align="justify">The CSCE ‘25 conference invites submissions of original research, review papers, and case studies with a length of 6 to 8 pages. Papers must be submitted in both Word and PDF formats via email to csce@cust.edu.pk. All submissions will undergo a peer review process, and authors are advised to strictly follow the provided template to avoid any inconvenience during the review. The conference enforces a strict plagiarism policy, requiring an overall similarity of less than 20% and a single-source similarity of less than 5%. Authors must also submit signed Declaration Forms in the prescribed format along with their final submissions before registration. The paper template and copyright form can be accessed on the conference website (csce.cust.edu.pk). Guidelines for oral and poster presentations will be communicated through the paper acceptance email. All accepted papers will be published in the ISBN proceedings.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- About Intro Content -->
+                    <div class="about_intro_content">
+                        <div class="row">
+                            <div class="col-lg-12">
+
+                                <h3 style="color:#3955E8">Paper Template </h3>
+                                <p align="justify">Please click for CSCE Template download: <a href="CSCE-Template-2025.docx">click here</a></p>
+                                <!-- <P align="justify">1. Paper is registered with CSCE and it is presented in CSCE on August 01, 2024.<br/> -->
+                                    <!-- 2. The author has given consent for publishing the paper with MDPI by paying <b>additional charges of Rs 9000/-</b> per paper of 1-4 pages length on MDPI template <b>at the time of paper registration.</b><br/>
+                                3. Author has submitted the paper of 1-4 pages length on MDPI template <b>at the time of paper registration.</b>
+                                </P>
+                                <p align="justify">Please click for MDPI Template download <a href="template-2024-csce.docx">click here</a></p> -->
+                            </div>
+
+
+                        </div>
+                    </div>
+    </section>
+
+    <section id="rguides">
+        <div class="container">
+            <!-- Schedule Section Title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color:#3955E8">Registration Details</h3>
+
+                </div>
+            </div>
+
+            <div class="schedule_content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Schedule Card -->
+                        <div class="schedule_card">
+                            <!-- Schedule Inner Content -->
+                            <div class="schedule_inner">
+                                <!-- Schedule Days - Tabs navigation -->
+
+                                <!-- /.Schedule Days - Tabs navigation -->
+
+                                <!-- Schedule Days - Tabs content -->
+                                <div class="tab-content" id="pills-tabContent">
+                                    <!-- Tab 01 -->
+                                    <div class="tab-pane fade show active" id="pills-dayone" role="tabpanel" aria-labelledby="pills-dayone-tab">
+                                        <!-- Schedule Days - Table -->
+                                        <div class="table">
+                                            <!-- Table Header -->
+                                            <!--   <div class="row header">
+                                               <div class="cell">
+                                                   Sr. No.
+                                               </div>
+                                               <div class="cell">
+                                                   Area
+                                               </div>
+
+                                           </div> -->
+                                            <!-- /.Table Header -->
+                                            <!-- Table Row -->
+
+
+                                            <!-- /.Table Row -->
+                                            <!-- Table Row -->
+
+
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Category
+                                                </div>
+
+                                                <div class="cell">
+
+                                                    <p>Local</p>
+                                                </div>
+                                                <div class="cell">
+
+                                                </div>
+                                                <div class="cell">
+                                                    <p>International</p>
+
+                                                </div>
+
+
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Author
+                                                </div>
+
+                                                <div class="cell">
+
+                                                    <p>PKR 7000/-</p>
+                                                </div>
+                                                <div class="cell">
+
+                                                </div>
+                                                <div class="cell">
+                                                    <p>USD 25/-</p>
+
+                                                </div>
+
+
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Student Author
+                                                </div>
+
+                                                <div class="cell">
+
+                                                    <p>PKR 5000/-</p>
+                                                </div>
+                                                <div class="cell">
+
+                                                </div>
+                                                <div class="cell">
+                                                    <p>USD 20/-</p>
+
+                                                </div>
+
+
+                                            </div>
+                                            <!-- /.Table Row -->
+                                            <!-- Table Row -->
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Additional Paper
+                                                </div>
+
+                                                <div class="cell">
+                                                    <p>PKR 3000/-</p>
+                                                </div>
+                                                <div class="cell">
+
+                                                </div>
+                                                <div class="cell">
+                                                    <p>USD 15/-</p>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="cell">
+                                                    Participants
+                                                </div>
+
+                                                <div class="cell">
+                                                    <p>PKR 5000/-</p>
+                                                </div>
+                                                <div class="cell">
+
+                                                </div>
+                                                <div class="cell">
+                                                    <p>USD 20/-</p>
+
+                                                </div>
+
+                                            </div>
+                                            <br />
+                                            <div class="row">
+                                                <p text-align="justify">Please click for Registration Form download: <a href="Registration-Form-CSCE'25.pdf">click here</a></p>
+                                                <p text-align="justify">Please click for Copyright Form download: <a href="Copyright-Form-CSCE'25.pdf">click here</a></p>
+                                            </div>
+                                            <br/>
+
+
+                                            <h4>Bank Account details (Local)</h4>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                                                <tr>
+                                                    <td>
+                                                        <ul style="list-style-type:none;">
+                                                            <li><b>Account Title:</b> Capital University of Science & Technology<br />
+                                                            </li>
+                                                            <li><b>A/c #:</b> 6010004521200058<br />
+                                                            </li>
+                                                            <li><b>Branch Code:</b> 0237<br />
+                                                            </li>
+                                                            <li><b>Bank Name:</b> The Bank of Punjab
+                                                            </li>
+                                                            <li><b>Branch Address:</b> Raza Noor Plaza, Jinnah Avenue, Blue Area Islamabad
+                                                            </li>
+                                                        </ul>
+                                                </tr>
+                                                </td>
+                                            </table>
+
+
+                                            <h4>Bank Account details (International)</h4>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                                                <tr>
+                                                    <td>
+                                                        <ul style="list-style-type:none;">
+                                                            <li><b>Account Title:</b> Capital University of Science & Technology<br />
+                                                            </li>
+                                                            <li><b>IBAN #:</b> PK41BPUN6010004521200058<br />
+                                                            </li>
+                                                            <li><b>Swift Code:</b> BPUNPKKAXXX<br />
+                                                            </li>
+                                                            <li><b>Branch Code:</b> 0237<br />
+                                                            </li>
+                                                            <li><b>Bank Name:</b> The Bank of Punjab
+                                                            </li>
+                                                            <li><b>Branch Address: </b>Raza Noor Plaza, Jinnah Avenue, Blue Area Islamabad
+                                                            </li>
+                                                        </ul>
+                                                </tr>
+                                                </td>
+                                            </table>
+                                            <div class="about_intro_content">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+
+                                                        <h3 style="color:#3955E8">For Registration</h3>
+                                                        <div class="cell">
+                                                            <b>Engr. Muhammad Yahya </b><br> Conference Secretary <br> Tel: +92-51-111-555-666 Ext – 452<br> Email: <a href="mailto:csce@cust.edu.pk">csce@cust.edu.pk</a><br>
+                                                        </div><br>
+
+                                                        </p>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /.Schedule Days - Table -->
+                                    </div>
+
+
+                                </div>
+                                <!-- /.Schedule Days - Tabs content -->
+                            </div>
+                            <!-- Schedule Inner Content -->
+                        </div>
+                        <!-- /.Schedule Card -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.Schedule Content -->
+        </div>
+    </section>
+
+
+    <section id="pschedule">
+        <div class="container">
+            <!-- Schedule Section Title -->
+            <!-- <div class="row">
+            <div class="col-md-12">
+                <h3 style="color:#3955E8">Program</h3>
+                <h4>Program Schedule</h4>
+                <p><a href="">Click here</a> to download</p>
+            </div>
+        </div> -->
+
+
+            <!-- /.Schedule Content -->
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Column 01 -->
+                <div class="col-lg-4">
+                    <h2>LOCATION</h2>
+                    <p>Capital University of Science & Technology, .
+                    </p>
+                    <p>Islamabad Expressway, Kahuta Road, Zone-V Islamabad</p>
+                </div>
+                <!-- /.Footer Column 01 -->
+                <!-- Footer Column 02 -->
+                <div class="col-lg-4">
+                    <h3>DATES
+                    </h3>
+                    <p>Conference - August 7, 2025 .</p>
+
+                </div>
+                <!-- /.Footer Column 02 -->
+                <!-- Footer Column 03 -->
+                <div class="col-lg-4">
+                    <h3>Stay connected with us.</h3>
+                    <p>Tel: +92-51-111-555-666 ext 452</p>
+
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-lg fa-facebook-official"
+                                                                aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-lg fa-twitter-square"
+                                                                aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-lg fa-instagram"
+                                                                aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <!-- /.Footer Column 03 -->
+            </div>
+        </div>
+    </footer>
+    <!-- /.Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Event JS -->
+    <script src="js/event.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1110 @@
+<section id="techcommt">
+    <div class="container">
+        <!-- Schedule Section Title -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3 style="color:#3955E8">Technical Committee</h3>
+
+            </div>
+        </div>
+        <div class="og_content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Schedule Card -->
+                    <div class="og_card">
+                        <!-- Schedule Inner Content -->
+                        <div class="og_inner">
+                            <!-- Schedule Days - Tabs navigation -->
+
+                            <!-- /.Schedule Days - Tabs navigation -->
+
+                            <!-- Schedule Days - Tabs content -->
+                            <div class="tab-content" id="pills-tabContent">
+                                <!-- Tab 01 -->
+                                <div class="tab-pane fade show active" id="pills-dayone" role="tabpanel"
+                                     aria-labelledby="pills-dayone-tab">
+                                    <!-- Schedule Days - Table -->
+                                    <div class="table">
+
+
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Hasan Tariq</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Thornton Tomasetti,USA</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Irshad Qureshi</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Washington State University, USA</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Furqan Qamar</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>WSP, UK</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Rabee Shamass</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>London South Bank University, UK</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Shunde Qin</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Principal Engineer at Jacobs Sutton Coldfield, UK</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Mizan Ahmed</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Monash University, Australia</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Hamid Mahmood</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Transport Dept.Victoria, Australia</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Wajiha Mohsin Shahzad</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Massey University, NewZealand</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Mohsin Shehzad</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Mott MacDonald, NewZealand</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Nicola Fontana</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Università degli Studi del Sannio, Italy</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Piotr Smarzewski</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Lublin University of Technology, Poland</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Cao Mingli</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Dalian University of Technology(DUT),China</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Ammad Hassan</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET Lahore</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Li Li</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Northwest A&F University, China</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Muhammad Shakeel</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>The Hong Kong University of Science and Technology</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr.Jin Cheng Liu</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>The Univeristy of HongKong</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Krit Saowiang</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Asian Institute of Technology, Thailand</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Arslan Akbar</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>City University of Hongkong</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Mehran Khan</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>The Hong Kong Polytechnic University, HongKong</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Khairunisa Binti Muthusamy</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Universiti Malaysia Pahang, Malaysia</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Noor Aina</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Universiti Pertahanan Nasional Malaysia</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Anas Bin Ibrahim</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UiTM Cawangan Pulau Pinang, Malaysia</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Munir Ahmed</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>DAR Engineering, KSA</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Umar Farooq</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Islamic University of Madinah, KSA</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Mohsin Usman Qureshi</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>University in Sohar,Oman</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr.M Zia ur Rehman Hashmi</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Global Change Impact Studies Centre, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Irfan Yousuf</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>NEPRA, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Shahid Nasir</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Finite Engineering Pvt. Ltd</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Habib ur Rehman</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET,Lahore,Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Noor Khan</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET,Lahore,Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Khurram Rashid</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET,Lahore,Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Sher Jamal Khan</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>NUST, Islamabad, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Rao Arsalan Khushnood</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>NUST, Islamabad, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Hammad Anis Khan</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>NUST, Islamabad, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Naeem Ejaz</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET, Taxila, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Faisal Shabbir</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET, Taxila, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Jawad Hussain</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET, Taxila, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Naveed Ahmad</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET, Taxila, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Muhammad Usman Arshid</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET, Taxila, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Afaq Ahmad</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET, Taxila, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Naveed Ahmad(Geotech)</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UET, Taxila, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Khan Zaib Jadoon</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>International Islamic University, Islamabad, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Zeeshan Alam</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>International Islamic University, Islamabad, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Rashid Farooq</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>International Islamic University, Islamabad, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Adnan Nawaz</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>COMSATS University, Abbottabad, Pakistann</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Ahsan Maqsoom</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>COMSATS University Wah, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Faisal Javed</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>COMSATS University Wah, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Shoukat Ali Khan</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Abasyn University, Peshawar, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Mudasser Muneer Khan</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Bahauddin Zakariya University, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Anwar Khitab</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>MUST, Mirpur</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Shoukat Ali Khan</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>MY University, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Kamran Muzaffar</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>MY University, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Shahmeer Janjua</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>IBADAT, Islamabad, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Sabahat Hassan</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>HITEC University Taxila, Pakistan</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- /.Schedule Days - Table -->
+                                </div>
+
+
+                            </div>
+                            <!-- /.Schedule Days - Tabs content -->
+                        </div>
+                        <!-- Schedule Inner Content -->
+                    </div>
+                    <!-- /.Schedule Card -->
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- /.Schedule Content -->
+    </div>
+</section>
+
+<section id="keynote">
+    <div class="container">
+        <!-- Schedule Section Title -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3 style="color:#3955E8">Keynote Speakers</h3>
+
+            </div>
+        </div>
+
+        <div class="og_content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Schedule Card -->
+                    <div class="og_card">
+                        <!-- Schedule Inner Content -->
+                        <div class="og_inner">
+                            <!-- Schedule Days - Tabs navigation -->
+
+                            <!-- /.Schedule Days - Tabs navigation -->
+
+                            <!-- Schedule Days - Tabs content -->
+                            <div class="tab-content" id="pills-tabContent">
+                                <!-- Tab 01 -->
+                                <div class="tab-pane fade show active" id="pills-dayone" role="tabpanel"
+                                     aria-labelledby="pills-dayone-tab">
+                                    <!-- Schedule Days - Table -->
+                                    <div class="table">
+
+
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Naveed Ahmad </b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Stanford University, California, USA</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Naveed Anwar</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Asian Institute of Technology, Thailand</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Anas bin Ibrahim</b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>UTM Cawangan Pulau Pinang Malaysia</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr. Tariq Umar  </b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>University of the West of England</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="cell">
+                                                <p><b>Dr Wasim Khaliq </b>  </p>
+
+                                            </div>
+
+                                            <div class="cell" >
+                                                <p><b>Director R&D NUST, Islamabad</b>  </p>
+                                            </div>
+                                            <div class="cell">
+                                                <p>&nbsp </p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- /.Schedule Days - Table -->
+                                </div>
+
+
+                            </div>
+                            <!-- /.Schedule Days - Tabs content -->
+                        </div>
+                        <!-- Schedule Inner Content -->
+                    </div>
+                    <!-- /.Schedule Card -->
+                </div>
+            </div>
+        </div>
+        <!-- /.Schedule Content -->
+    </div>
+</section>
+

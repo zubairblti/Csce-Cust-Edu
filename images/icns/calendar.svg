@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 47.4975014 62.819276 47.4975014 62.819276 0 0 0"></polygon>
+    </defs>
+    <g id="Event-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset-Copy">
+            <g id="Page-1" transform="translate(1.000000, 26.000000)">
+                <path d="M59.7549211,46.7314126 L3.06435493,46.7314126 C1.80030852,46.7314126 0.766088732,45.6971929 0.766088732,44.4331464 L0.766088732,3.06435493 C0.766088732,1.80030852 1.80030852,0.766088732 3.06435493,0.766088732 L59.7549211,0.766088732 C61.0189675,0.766088732 62.0531873,1.80030852 62.0531873,3.06435493 L62.0531873,44.4331464 C62.0531873,45.6971929 61.0189675,46.7314126 59.7549211,46.7314126 Z" id="Stroke-1" stroke="#0055E8" stroke-width="2"></path>
+                <path d="M62.819276,8.46405474 L1.53217746,8.46405474" id="Stroke-3" stroke="#0055E8" stroke-width="2"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-6"></g>
+                <polygon id="Stroke-5" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="48.7745713 20.7303611 54.9032811 20.7303611 54.9032811 14.6016512 48.7745713 14.6016512"></polygon>
+                <polygon id="Stroke-7" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="38.8154178 20.7303611 44.9441276 20.7303611 44.9441276 14.6016512 38.8154178 14.6016512"></polygon>
+                <polygon id="Stroke-8" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="48.7745713 30.6895146 54.9032811 30.6895146 54.9032811 24.5608047 48.7745713 24.5608047"></polygon>
+                <polygon id="Stroke-9" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="38.8154178 30.6895146 44.9441276 30.6895146 44.9441276 24.5608047 38.8154178 24.5608047"></polygon>
+                <polygon id="Stroke-10" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="28.8562643 30.6895146 34.9849741 30.6895146 34.9849741 24.5608047 28.8562643 24.5608047"></polygon>
+                <polygon id="Stroke-11" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="18.8971107 30.6895146 25.0258206 30.6895146 25.0258206 24.5608047 18.8971107 24.5608047"></polygon>
+                <polygon id="Stroke-12" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="8.1718685 30.6895146 14.3005784 30.6895146 14.3005784 24.5608047 8.1718685 24.5608047"></polygon>
+                <polygon id="Stroke-13" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="48.7745713 40.6486681 54.9032811 40.6486681 54.9032811 34.5199583 48.7745713 34.5199583"></polygon>
+                <polygon id="Stroke-14" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="38.8154178 40.6486681 44.9441276 40.6486681 44.9441276 34.5199583 38.8154178 34.5199583"></polygon>
+                <polygon id="Stroke-15" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="28.8562643 40.6486681 34.9849741 40.6486681 34.9849741 34.5199583 28.8562643 34.5199583"></polygon>
+                <polygon id="Stroke-16" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="18.8971107 40.6486681 25.0258206 40.6486681 25.0258206 34.5199583 18.8971107 34.5199583"></polygon>
+                <polygon id="Stroke-17" stroke="#0055E8" stroke-width="2" mask="url(#mask-2)" points="8.1718685 40.6486681 14.3005784 40.6486681 14.3005784 34.5199583 8.1718685 34.5199583"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

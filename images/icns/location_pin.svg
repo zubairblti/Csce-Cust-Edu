@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Event-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset" stroke="#0055E8" stroke-width="2">
+            <g id="Page-1" transform="translate(2.000000, 23.000000)">
+                <path d="M40,20.2836401 C40,9.08092673 31.0460581,0 20,0 C8.95481835,0 0,9.08092673 0,20.2836401 C0,34.5859219 14.6448135,43.762849 18.4845962,52.1433284 C19.2111837,53.7300017 20.7888163,53.7300017 21.5162803,52.1433284 C25.3560629,43.762849 40,36.1459284 40,20.2836401 Z" id="Stroke-1"></path>
+                <path d="M28,19.3333333 C28,23.3830588 24.7163922,26.6666667 20.6666667,26.6666667 C16.6169412,26.6666667 13.3333333,23.3830588 13.3333333,19.3333333 C13.3333333,15.2836078 16.6169412,12 20.6666667,12 C24.7163922,12 28,15.2836078 28,19.3333333 Z" id="Stroke-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>
